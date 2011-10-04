@@ -1,4 +1,6 @@
 EcommerceApp::Application.routes.draw do
+
+  match '/auth/facebook/callback' => 'pages#create'
   root :to=> "pages#index"
 
   # The priority is based upon order of creation:

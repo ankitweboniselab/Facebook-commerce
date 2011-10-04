@@ -5,4 +5,8 @@ class PagesController < ApplicationController
 
   end
 
+  def create
+    raise request.env["omniauth.auth"].to_yaml
+  end
+
 end

@@ -18,6 +18,8 @@ gem 'rails', '3.0.9'
 #end
 gem 'mysql'
 
+gem 'omniauth'
+
 gem 'jquery-rails'
 
 # Use unicorn as the web server
